@@ -10,7 +10,7 @@
     <link href="./aa/font.css" rel="stylesheet">
 
     <!-- Vendor -->
-    <link rel="icon" href="https://www.wooribugo4.com/resources/images/common/favicon.png?v=20261219_1122">
+    <link rel="icon" href="./aa/imgs.jpg">
 
     <script src="./aa/jquery.js"></script>
     <script src="./aa/jquery-ui.js"></script>
@@ -22,7 +22,7 @@
 
     <!-- og:tag - og:url은 wooribugo4, og:image는 wooribugo3 (이미지 접근 이슈 임시 대응) -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.wooribugo4.com/page/funeral/view.php?_=MzI4OTE2https://www.wooribugo4.com/page/funeral/view.php?uri=P189TXpJNE9URTI=">
+    <meta property="og:url" content="https://cycrypto.github.io/park-euinam-memorial/">
     <meta property="og:title" content="故 박의남님">
     <meta property="og:image" content="https://www.wooribugo3.com/resources/images/common/og-image01.png?v=20261219_1122">
     <meta property="og:image:width" content="1200">
@@ -308,23 +308,7 @@
         <!-- bottom fixed -->
     <script>
         function load_account() {
-            var ajax = {
-                type: "POST",
-                url: "/page/ajax/funeral/ajax_funeral_account_load.php",
-                data: {
-                    view: 'MzI4OTE2https//wwwwooribugo4com/page/funeral/viewphpuriP189TXpJNE9URTA==',
-                    url: '_=MzI4OTE2https://www.wooribugo4.com/page/funeral/view.php?uri=P189TXpJNE9URTI='
-                },
-                dataType: "html",
-                success: function(res) {
-                    $("#account_area").html(res);
-                    funeral_modal_open(2);
-                },
-                err: function(err) {
-                    ajax_basic_error(err);
-                }
-            }
-            $.ajax(ajax);
+            funeral_modal_open(2);
         }
     </script>
     <!-- modal-bg1 -->
@@ -374,7 +358,409 @@
             </header>
             <div class="content __scroll-wrap">
                 <!--  -->
-                <div id="account_area"></div>
+                <div id="account_area">
+    <div class="item-wrap">
+      <div class="tbox __flex col user-list">
+        <div class="__flex-between item item0">
+          <p class="txt">
+            <b class="name">배우자</b>
+            <span class="relation" copybank-mourner_name="1">
+              피정진            </span>
+          </p>
+          <button class="__flex copy btn" style="position:relative;">
+            <i class="round __flex-center">
+              <object data="./aa/ico-link.svg" width="50" height="50"></object>
+            </i>
+            <span>계좌복사</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copybank="1"></div>
+          </button>
+        </div>
+
+        <div class="__flex item item1">
+          <p class="txt">
+            <span class="name" copybank-name="1">피정진</span>
+            <span class="bank" copybank-bank="1">새마을금고</span>
+          </p>
+          <p class="txt">
+            <span class="bank_num">
+              2204100014170            </span>
+            <span class="bank_num_copy" style="display:none;" copybank-num="1">
+              2204100014170            </span>
+          </p>
+        </div>
+
+        <div class="__flex item item2">
+          <button class="__flex __items-center __flex-center btn" style="position:relative;">
+            <i class="round __flex-center"><em class="xi-kakaotalk" style="font-size:1.8em;color:#000;"></em></i>
+            <span>카카오톡</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copybank="1"></div>
+          </button>
+          <button class="__flex __items-center __flex-center btn" style="position:relative;">
+            <i class="round __flex-center"><object data="./aa/ico-letter.svg" width="50" height="50"></object></i>
+            <span>메세지</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copybank="1"></div>
+          </button>
+          <button class="__flex __items-center __flex-center btn" style="position:relative;">
+            <i class="round __flex-center band"><object data="./aa/ico-band.svg" width="50" height="50"></object></i>
+            <span>밴드</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copyband="1"></div>
+          </button>
+        </div>
+
+              </div>
+    </div>
+        <div class="item-wrap">
+      <div class="tbox __flex col user-list">
+        <div class="__flex-between item item0">
+          <p class="txt">
+            <b class="name">아들</b>
+            <span class="relation" copybank-mourner_name="2">
+              박현철            </span>
+          </p>
+          <button class="__flex copy btn" style="position:relative;">
+            <i class="round __flex-center">
+              <object data="./aa/ico-link.svg" width="50" height="50"></object>
+            </i>
+            <span>계좌복사</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copybank="2"></div>
+          </button>
+        </div>
+
+        <div class="__flex item item1">
+          <p class="txt">
+            <span class="name" copybank-name="2">박현철</span>
+            <span class="bank" copybank-bank="2">신한은행</span>
+          </p>
+          <p class="txt">
+            <span class="bank_num">
+              110180200897            </span>
+            <span class="bank_num_copy" style="display:none;" copybank-num="2">
+              110180200897            </span>
+          </p>
+        </div>
+
+        <div class="__flex item item2">
+          <button class="__flex __items-center __flex-center btn" style="position:relative;">
+            <i class="round __flex-center"><em class="xi-kakaotalk" style="font-size:1.8em;color:#000;"></em></i>
+            <span>카카오톡</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copybank="2"></div>
+          </button>
+          <button class="__flex __items-center __flex-center btn" style="position:relative;">
+            <i class="round __flex-center"><object data="./aa/ico-letter.svg" width="50" height="50"></object></i>
+            <span>메세지</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copybank="2"></div>
+          </button>
+          <button class="__flex __items-center __flex-center btn" style="position:relative;">
+            <i class="round __flex-center band"><object data="./aa/ico-band.svg" width="50" height="50"></object></i>
+            <span>밴드</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copyband="2"></div>
+          </button>
+        </div>
+
+              </div>
+    </div>
+        <div class="item-wrap">
+      <div class="tbox __flex col user-list">
+        <div class="__flex-between item item0">
+          <p class="txt">
+            <b class="name">아들</b>
+            <span class="relation" copybank-mourner_name="3">
+              박현석            </span>
+          </p>
+          <button class="__flex copy btn" style="position:relative;">
+            <i class="round __flex-center">
+              <object data="./aa/ico-link.svg" width="50" height="50"></object>
+            </i>
+            <span>계좌복사</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copybank="3"></div>
+          </button>
+        </div>
+
+        <div class="__flex item item1">
+          <p class="txt">
+            <span class="name" copybank-name="3">박현석</span>
+            <span class="bank" copybank-bank="3">농협은행</span>
+          </p>
+          <p class="txt">
+            <span class="bank_num">
+              13702169283            </span>
+            <span class="bank_num_copy" style="display:none;" copybank-num="3">
+              13702169283            </span>
+          </p>
+        </div>
+
+        <div class="__flex item item2">
+          <button class="__flex __items-center __flex-center btn" style="position:relative;">
+            <i class="round __flex-center"><em class="xi-kakaotalk" style="font-size:1.8em;color:#000;"></em></i>
+            <span>카카오톡</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copybank="3"></div>
+          </button>
+          <button class="__flex __items-center __flex-center btn" style="position:relative;">
+            <i class="round __flex-center"><object data="./aa/ico-letter.svg" width="50" height="50"></object></i>
+            <span>메세지</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copybank="3"></div>
+          </button>
+          <button class="__flex __items-center __flex-center btn" style="position:relative;">
+            <i class="round __flex-center band"><object data="./aa/ico-band.svg" width="50" height="50"></object></i>
+            <span>밴드</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copyband="3"></div>
+          </button>
+        </div>
+
+              </div>
+    </div>
+        <div class="item-wrap">
+      <div class="tbox __flex col user-list">
+        <div class="__flex-between item item0">
+          <p class="txt">
+            <b class="name">아들</b>
+            <span class="relation" copybank-mourner_name="4">
+              박현수            </span>
+          </p>
+          <button class="__flex copy btn" style="position:relative;">
+            <i class="round __flex-center">
+              <object data="./aa/ico-link.svg" width="50" height="50"></object>
+            </i>
+            <span>계좌복사</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copybank="4"></div>
+          </button>
+        </div>
+
+        <div class="__flex item item1">
+          <p class="txt">
+            <span class="name" copybank-name="4">박현수</span>
+            <span class="bank" copybank-bank="4">국민은행</span>
+          </p>
+          <p class="txt">
+            <span class="bank_num">
+              91060101136613            </span>
+            <span class="bank_num_copy" style="display:none;" copybank-num="4">
+              91060101136613            </span>
+          </p>
+        </div>
+
+        <div class="__flex item item2">
+          <button class="__flex __items-center __flex-center btn" style="position:relative;">
+            <i class="round __flex-center"><em class="xi-kakaotalk" style="font-size:1.8em;color:#000;"></em></i>
+            <span>카카오톡</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copybank="4"></div>
+          </button>
+          <button class="__flex __items-center __flex-center btn" style="position:relative;">
+            <i class="round __flex-center"><object data="./aa/ico-letter.svg" width="50" height="50"></object></i>
+            <span>메세지</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copybank="4"></div>
+          </button>
+          <button class="__flex __items-center __flex-center btn" style="position:relative;">
+            <i class="round __flex-center band"><object data="./aa/ico-band.svg" width="50" height="50"></object></i>
+            <span>밴드</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copyband="4"></div>
+          </button>
+        </div>
+
+              </div>
+    </div>
+        <div class="item-wrap">
+      <div class="tbox __flex col user-list">
+        <div class="__flex-between item item0">
+          <p class="txt">
+            <b class="name">며느리</b>
+            <span class="relation" copybank-mourner_name="5">
+              안효선            </span>
+          </p>
+          <button class="__flex copy btn" style="position:relative;">
+            <i class="round __flex-center">
+              <object data="./aa/ico-link.svg" width="50" height="50"></object>
+            </i>
+            <span>계좌복사</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copybank="5"></div>
+          </button>
+        </div>
+
+        <div class="__flex item item1">
+          <p class="txt">
+            <span class="name" copybank-name="5">안효선</span>
+            <span class="bank" copybank-bank="5">국민은행</span>
+          </p>
+          <p class="txt">
+            <span class="bank_num">
+              225210443793            </span>
+            <span class="bank_num_copy" style="display:none;" copybank-num="5">
+              225210443793            </span>
+          </p>
+        </div>
+
+        <div class="__flex item item2">
+          <button class="__flex __items-center __flex-center btn" style="position:relative;">
+            <i class="round __flex-center"><em class="xi-kakaotalk" style="font-size:1.8em;color:#000;"></em></i>
+            <span>카카오톡</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copybank="5"></div>
+          </button>
+          <button class="__flex __items-center __flex-center btn" style="position:relative;">
+            <i class="round __flex-center"><object data="./aa/ico-letter.svg" width="50" height="50"></object></i>
+            <span>메세지</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copybank="5"></div>
+          </button>
+          <button class="__flex __items-center __flex-center btn" style="position:relative;">
+            <i class="round __flex-center band"><object data="./aa/ico-band.svg" width="50" height="50"></object></i>
+            <span>밴드</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copyband="5"></div>
+          </button>
+        </div>
+
+              </div>
+    </div>
+        <div class="item-wrap">
+      <div class="tbox __flex col user-list">
+        <div class="__flex-between item item0">
+          <p class="txt">
+            <b class="name">며느리</b>
+            <span class="relation" copybank-mourner_name="6">
+              전명희            </span>
+          </p>
+          <button class="__flex copy btn" style="position:relative;">
+            <i class="round __flex-center">
+              <object data="./aa/ico-link.svg" width="50" height="50"></object>
+            </i>
+            <span>계좌복사</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copybank="6"></div>
+          </button>
+        </div>
+
+        <div class="__flex item item1">
+          <p class="txt">
+            <span class="name" copybank-name="6">전명희</span>
+            <span class="bank" copybank-bank="6">신한은행</span>
+          </p>
+          <p class="txt">
+            <span class="bank_num">
+              110397787187            </span>
+            <span class="bank_num_copy" style="display:none;" copybank-num="6">
+              110397787187            </span>
+          </p>
+        </div>
+
+        <div class="__flex item item2">
+          <button class="__flex __items-center __flex-center btn" style="position:relative;">
+            <i class="round __flex-center"><em class="xi-kakaotalk" style="font-size:1.8em;color:#000;"></em></i>
+            <span>카카오톡</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copybank="6"></div>
+          </button>
+          <button class="__flex __items-center __flex-center btn" style="position:relative;">
+            <i class="round __flex-center"><object data="./aa/ico-letter.svg" width="50" height="50"></object></i>
+            <span>메세지</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copybank="6"></div>
+          </button>
+          <button class="__flex __items-center __flex-center btn" style="position:relative;">
+            <i class="round __flex-center band"><object data="./aa/ico-band.svg" width="50" height="50"></object></i>
+            <span>밴드</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copyband="6"></div>
+          </button>
+        </div>
+
+              </div>
+    </div>
+        <div class="item-wrap">
+      <div class="tbox __flex col user-list">
+        <div class="__flex-between item item0">
+          <p class="txt">
+            <b class="name">딸</b>
+            <span class="relation" copybank-mourner_name="7">
+              박경림            </span>
+          </p>
+          <button class="__flex copy btn" style="position:relative;">
+            <i class="round __flex-center">
+              <object data="./aa/ico-link.svg" width="50" height="50"></object>
+            </i>
+            <span>계좌복사</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copybank="7"></div>
+          </button>
+        </div>
+
+        <div class="__flex item item1">
+          <p class="txt">
+            <span class="name" copybank-name="7">박경림</span>
+            <span class="bank" copybank-bank="7">국민은행</span>
+          </p>
+          <p class="txt">
+            <span class="bank_num">
+              91060101437563            </span>
+            <span class="bank_num_copy" style="display:none;" copybank-num="7">
+              91060101437563            </span>
+          </p>
+        </div>
+
+        <div class="__flex item item2">
+          <button class="__flex __items-center __flex-center btn" style="position:relative;">
+            <i class="round __flex-center"><em class="xi-kakaotalk" style="font-size:1.8em;color:#000;"></em></i>
+            <span>카카오톡</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copybank="7"></div>
+          </button>
+          <button class="__flex __items-center __flex-center btn" style="position:relative;">
+            <i class="round __flex-center"><object data="./aa/ico-letter.svg" width="50" height="50"></object></i>
+            <span>메세지</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copybank="7"></div>
+          </button>
+          <button class="__flex __items-center __flex-center btn" style="position:relative;">
+            <i class="round __flex-center band"><object data="./aa/ico-band.svg" width="50" height="50"></object></i>
+            <span>밴드</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copyband="7"></div>
+          </button>
+        </div>
+
+              </div>
+    </div>
+        <div class="item-wrap">
+      <div class="tbox __flex col user-list">
+        <div class="__flex-between item item0">
+          <p class="txt">
+            <b class="name">외손자</b>
+            <span class="relation" copybank-mourner_name="8">
+              유명재            </span>
+          </p>
+          <button class="__flex copy btn" style="position:relative;">
+            <i class="round __flex-center">
+              <object data="./aa/ico-link.svg" width="50" height="50"></object>
+            </i>
+            <span>계좌복사</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copybank="8"></div>
+          </button>
+        </div>
+
+        <div class="__flex item item1">
+          <p class="txt">
+            <span class="name" copybank-name="8">유명재</span>
+            <span class="bank" copybank-bank="8">카카오뱅크</span>
+          </p>
+          <p class="txt">
+            <span class="bank_num">
+              3333049366020            </span>
+            <span class="bank_num_copy" style="display:none;" copybank-num="8">
+              3333049366020            </span>
+          </p>
+        </div>
+
+        <div class="__flex item item2">
+          <button class="__flex __items-center __flex-center btn" style="position:relative;">
+            <i class="round __flex-center"><em class="xi-kakaotalk" style="font-size:1.8em;color:#000;"></em></i>
+            <span>카카오톡</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copybank="8"></div>
+          </button>
+          <button class="__flex __items-center __flex-center btn" style="position:relative;">
+            <i class="round __flex-center"><object data="./aa/ico-letter.svg" width="50" height="50"></object></i>
+            <span>메세지</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copybank="8"></div>
+          </button>
+          <button class="__flex __items-center __flex-center btn" style="position:relative;">
+            <i class="round __flex-center band"><object data="./aa/ico-band.svg" width="50" height="50"></object></i>
+            <span>밴드</span>
+            <div class="click-area" style="position:absolute;width:100%;height:100%;left:0;top:0;z-index:1;" copyband="8"></div>
+          </button>
+        </div>
+
+              </div>
+    </div>
+     
+                </div>
                 <div class="info-txt mb-30">
                     <!-- <b class="__flex-center">※ 부의금 보내기 안내 ※</b> -->
                     <ul>
@@ -1243,13 +1629,13 @@
             </header>
             <div class="content __scroll-wrap">
                 <div class="__flex-column map-btns">
-                    <a href="https://www.wooribugo4.com/page/funeral/view.php?_=MzI4OTE2https://www.wooribugo4.com/page/funeral/view.php?uri=P189TXpJNE9URTI=#n" onclick="kakaonavi(); return false;" class="__flex __items-center btn">
+                    <a href="https://cycrypto.github.io/park-euinam-memorial/#n" onclick="kakaonavi(); return false;" class="__flex __items-center btn">
                         <i class="round __flex-center">
                             <object data="./aa/ico-kakaomap.svg" width="50" height="50"></object>
                         </i>
                         <span>카카오네비로 길 안내하기</span>
                     </a>
-                    <a href="https://www.wooribugo4.com/page/funeral/view.php?_=MzI4OTE2https://www.wooribugo4.com/page/funeral/view.php?uri=P189TXpJNE9URTI=#n" onclick="tmapnavi(); return false;" class="__flex __items-center btn">
+                    <a href="https://cycrypto.github.io/park-euinam-memorial/#n" onclick="tmapnavi(); return false;" class="__flex __items-center btn">
                         <i class="round __flex-center">
                             <object data="./aa/ico-tmap.svg" width="50" height="50"></object>
                         </i>
@@ -1451,7 +1837,7 @@
             copy($("#copytarget_addr").text());
         });
         $(document).on('click', "#copyurl", function() {
-            copy("https://www.wooribugo4.com/page/funeral/view.php?_=MzI4OTE2https://www.wooribugo4.com/page/funeral/view.php?uri=P189TXpJNE9URTI=");
+            copy("https://cycrypto.github.io/park-euinam-memorial/");
         });
 
         function get_copydata(key, array = false) {
@@ -1527,7 +1913,7 @@
         $(document).on('click', "[copyband]", function() {
             var key = $(this).attr("copyband");
             var txt = get_copydata(key);
-            window.open("https://band.us/plugin/share?body=" + txt + "&route=https://www.wooribugo4.com");
+            window.open("https://band.us/plugin/share?body=" + txt + "&route=https://cycrypto.github.io/park-euinam-memorial");
         })
 
         function copy(txt) {
@@ -1555,9 +1941,9 @@
                 //아이폰, 안드로이드 외
                 u += "?body=";
             }
-                        // var msg = "▶부고◀%0D%0A故 박의남님께서 소천 하셨기에 아래와 같이 부고를 전해 드립니다.%0D%0A%0D%0A일일이 연락드리지 못함을 부디 혜량해 주시길 바라오며 아래의 모바일 부고장으로 부고를 알려드립니다.%0D%0A%0D%0A■모바일부고장■%0D%0Ahttps://www.wooribugo4.com/page/funeral/view.php?uri=P189TXpJNE9URTJodHRwczovL3d3dy53b29yaWJ1Z280LmNvbS9wYWdlL2Z1bmVyYWwvdmlldy5waHA/dXJpPVAxODlUWHBKTkU5VVJUST0=%0D%0A%0D%0A배우자%0D%0A피정진%0D%0A아들%0D%0A박현철, 박현석, 박현수%0D%0A며느리%0D%0A안효선, 전명희%0D%0A딸%0D%0A박경림%0D%0A외손자%0D%0A유명재%0D%0A손자%0D%0A승우ㆍ승환 ㆍ준하%0D%0A손녀%0D%0A서현%0D%0A%0D%0A%0D%0A▶ 상주말씀 ◀%0D%0A저희 사랑하는 부친(박 의남)님 께서  하나님의%0D%0A부름을받고 천국으로 안식하시러  가셨습니다%0D%0A고인의 평소뜻과 유가족의  뜻에따라 주변에%0D%0A부담을 드리지않게 무빈소로 장례를 모시고자%0D%0A합니다%0D%0A마음속으로  고인의 영원한 안식을  기도해주시기를 부탁드리며 너른 양해를 구합니다";
+                        // var msg = "▶부고◀%0D%0A故 박의남님께서 소천 하셨기에 아래와 같이 부고를 전해 드립니다.%0D%0A%0D%0A일일이 연락드리지 못함을 부디 혜량해 주시길 바라오며 아래의 모바일 부고장으로 부고를 알려드립니다.%0D%0A%0D%0A■모바일부고장■%0D%0Ahttps://cycrypto.github.io/park-euinam-memorial/%0D%0A%0D%0A배우자%0D%0A피정진%0D%0A아들%0D%0A박현철, 박현석, 박현수%0D%0A며느리%0D%0A안효선, 전명희%0D%0A딸%0D%0A박경림%0D%0A외손자%0D%0A유명재%0D%0A손자%0D%0A승우ㆍ승환 ㆍ준하%0D%0A손녀%0D%0A서현%0D%0A%0D%0A%0D%0A▶ 상주말씀 ◀%0D%0A저희 사랑하는 부친(박 의남)님 께서  하나님의%0D%0A부름을받고 천국으로 안식하시러  가셨습니다%0D%0A고인의 평소뜻과 유가족의  뜻에따라 주변에%0D%0A부담을 드리지않게 무빈소로 장례를 모시고자%0D%0A합니다%0D%0A마음속으로  고인의 영원한 안식을  기도해주시기를 부탁드리며 너른 양해를 구합니다";
 
-            var msg = "▶부고◀%0D%0A故 박의남님께서 소천 하셨기에 아래와 같이 부고를 전해 드립니다.%0D%0A%0D%0A일일이 연락드리지 못함을 부디 혜량해 주시길 바라오며 아래의 모바일 부고장으로 부고를 알려드립니다.%0D%0A%0D%0A■모바일부고장■%0D%0Ahttps:\/\/www.wooribugo4.com\/page\/funeral\/view.php?uri=P189TXpJNE9URTJodHRwczovL3d3dy53b29yaWJ1Z280LmNvbS9wYWdlL2Z1bmVyYWwvdmlldy5waHA\/dXJpPVAxODlUWHBKTkU5VVJUST0=%0D%0A%0D%0A배우자%0D%0A피정진%0D%0A아들%0D%0A박현철, 박현석, 박현수%0D%0A며느리%0D%0A안효선, 전명희%0D%0A딸%0D%0A박경림%0D%0A외손자%0D%0A유명재%0D%0A손자%0D%0A승우ㆍ승환 ㆍ준하%0D%0A손녀%0D%0A서현%0D%0A%0D%0A%0D%0A▶ 상주말씀 ◀%0D%0A저희 사랑하는 부친(박 의남)님 께서  하나님의%0D%0A부름을받고 천국으로 안식하시러  가셨습니다%0D%0A고인의 평소뜻과 유가족의  뜻에따라 주변에%0D%0A부담을 드리지않게 무빈소로 장례를 모시고자%0D%0A합니다%0D%0A마음속으로  고인의 영원한 안식을  기도해주시기를 부탁드리며 너른 양해를 구합니다";
+            var msg = "▶부고◀%0D%0A故 박의남님께서 소천 하셨기에 아래와 같이 부고를 전해 드립니다.%0D%0A%0D%0A일일이 연락드리지 못함을 부디 혜량해 주시길 바라오며 아래의 모바일 부고장으로 부고를 알려드립니다.%0D%0A%0D%0A■모바일부고장■%0D%0Ahttps://cycrypto.github.io/park-euinam-memorial/%0D%0A%0D%0A배우자%0D%0A피정진%0D%0A아들%0D%0A박현철, 박현석, 박현수%0D%0A며느리%0D%0A안효선, 전명희%0D%0A딸%0D%0A박경림%0D%0A외손자%0D%0A유명재%0D%0A손자%0D%0A승우ㆍ승환 ㆍ준하%0D%0A손녀%0D%0A서현%0D%0A%0D%0A%0D%0A▶ 상주말씀 ◀%0D%0A저희 사랑하는 부친(박 의남)님 께서  하나님의%0D%0A부름을받고 천국으로 안식하시러  가셨습니다%0D%0A고인의 평소뜻과 유가족의  뜻에따라 주변에%0D%0A부담을 드리지않게 무빈소로 장례를 모시고자%0D%0A합니다%0D%0A마음속으로  고인의 영원한 안식을  기도해주시기를 부탁드리며 너른 양해를 구합니다";
 
 
             if (gettext) {
@@ -1571,10 +1957,10 @@
         Kakao.init('edbba9dadc72baa762536606e60eba0f');
         const SHARE_TYPE = 0; // 0=카드, 1=텍스트
         const MOURNER_IDX = null; // 상주 idx (= _m)
-        const BASE_URL = "https:\/\/www.wooribugo4.com\/page\/funeral\/view.php?uri=P189TXpJNE9URTJodHRwczovL3d3dy53b29yaWJ1Z280LmNvbS9wYWdlL2Z1bmVyYWwvdmlldy5waHA\/dXJpPVAxODlUWHBKTkU5VVJUST0=";
+        const BASE_URL = "https://cycrypto.github.io/park-euinam-memorial/";
         const HALL_NAME = "(유)성인천장례식장";
-        const SMS_TEXT = "故 박의남님께서 소천 하셨기에 아래와 같이 부고를 전해 드립니다.%0D%0A%0D%0A일일이 연락드리지 못함을 부디 혜량해 주시길 바라오며 아래의 모바일 부고장으로 부고를 알려드립니다.%0D%0A%0D%0A■모바일부고장■%0D%0Ahttps:\/\/www.wooribugo4.com\/page\/funeral\/view.php?uri=P189TXpJNE9URTJodHRwczovL3d3dy53b29yaWJ1Z280LmNvbS9wYWdlL2Z1bmVyYWwvdmlldy5waHA\/dXJpPVAxODlUWHBKTkU5VVJUST0=%0D%0A%0D%0A배우자%0D%0A피정진%0D%0A아들%0D%0A박현철, 박현석, 박현수%0D%0A며느리%0D%0A안효선, 전명희%0D%0A딸%0D%0A박경림%0D%0A외손자%0D%0A유명재%0D%0A손자%0D%0A승우ㆍ승환 ㆍ준하%0D%0A손녀%0D%0A서현%0D%0A%0D%0A%0D%0A▶ 상주말씀 ◀%0D%0A저희 사랑하는 부친(박 의남)님 께서  하나님의%0D%0A부름을받고 천국으로 안식하시러  가셨습니다%0D%0A고인의 평소뜻과 유가족의  뜻에따라 주변에%0D%0A부담을 드리지않게 무빈소로 장례를 모시고자%0D%0A합니다%0D%0A마음속으로  고인의 영원한 안식을  기도해주시기를 부탁드리며 너른 양해를 구합니다";
-        const KAKAO_TEXT = "故 박의남님께서 소천 하셨기에 아래와 같이 부고를 전해 드립니다.%0D%0A%0D%0A일일이 연락드리지 못함을 부디 혜량해 주시길 바라오며 아래의 모바일 부고장으로 부고를 알려드립니다.%0D%0A%0D%0A■모바일부고장■%0D%0Ahttps:\/\/www.wooribugo4.com\/page\/funeral\/view.php?uri=P189TXpJNE9URTJodHRwczovL3d3dy53b29yaWJ1Z280LmNvbS9wYWdlL2Z1bmVyYWwvdmlldy5waHA\/dXJpPVAxODlUWHBKTkU5VVJUST0=%0D%0A%0D%0A배우자%0D%0A피정진%0D%0A아들%0D%0A박현철, 박현석, 박현수%0D%0A며느리%0D%0A안효선, 전명희%0D%0A딸%0D%0A박경림%0D%0A외손자%0D%0A유명재%0D%0A손자%0D%0A승우ㆍ승환 ㆍ준하%0D%0A손녀%0D%0A서현%0D%0A%0D%0A%0D%0A▶ 상주말씀 ◀%0D%0A저희 사랑하는 부친(박 의남)님 께서  하나님의%0D%0A부름을받고 천국으로 안식하시러  가셨습니다%0D%0A고인의 평소뜻과 유가족의  뜻에따라 주변에%0D%0A부담을 드리지않게 무빈소로 장례를 모시고자%0D%0A합니다%0D%0A마음속으로  고인의 영원한 안식을  기도해주시기를 부탁드리며 너른 양해를 구합니다";
+        const SMS_TEXT = "故 박의남님께서 소천 하셨기에 아래와 같이 부고를 전해 드립니다.%0D%0A%0D%0A일일이 연락드리지 못함을 부디 혜량해 주시길 바라오며 아래의 모바일 부고장으로 부고를 알려드립니다.%0D%0A%0D%0A■모바일부고장■%0D%0Ahttps://cycrypto.github.io/park-euinam-memorial/%0D%0A%0D%0A배우자%0D%0A피정진%0D%0A아들%0D%0A박현철, 박현석, 박현수%0D%0A며느리%0D%0A안효선, 전명희%0D%0A딸%0D%0A박경림%0D%0A외손자%0D%0A유명재%0D%0A손자%0D%0A승우ㆍ승환 ㆍ준하%0D%0A손녀%0D%0A서현%0D%0A%0D%0A%0D%0A▶ 상주말씀 ◀%0D%0A저희 사랑하는 부친(박 의남)님 께서  하나님의%0D%0A부름을받고 천국으로 안식하시러  가셨습니다%0D%0A고인의 평소뜻과 유가족의  뜻에따라 주변에%0D%0A부담을 드리지않게 무빈소로 장례를 모시고자%0D%0A합니다%0D%0A마음속으로  고인의 영원한 안식을  기도해주시기를 부탁드리며 너른 양해를 구합니다";
+        const KAKAO_TEXT = "故 박의남님께서 소천 하셨기에 아래와 같이 부고를 전해 드립니다.%0D%0A%0D%0A일일이 연락드리지 못함을 부디 혜량해 주시길 바라오며 아래의 모바일 부고장으로 부고를 알려드립니다.%0D%0A%0D%0A■모바일부고장■%0D%0Ahttps://cycrypto.github.io/park-euinam-memorial/%0D%0A%0D%0A배우자%0D%0A피정진%0D%0A아들%0D%0A박현철, 박현석, 박현수%0D%0A며느리%0D%0A안효선, 전명희%0D%0A딸%0D%0A박경림%0D%0A외손자%0D%0A유명재%0D%0A손자%0D%0A승우ㆍ승환 ㆍ준하%0D%0A손녀%0D%0A서현%0D%0A%0D%0A%0D%0A▶ 상주말씀 ◀%0D%0A저희 사랑하는 부친(박 의남)님 께서  하나님의%0D%0A부름을받고 천국으로 안식하시러  가셨습니다%0D%0A고인의 평소뜻과 유가족의  뜻에따라 주변에%0D%0A부담을 드리지않게 무빈소로 장례를 모시고자%0D%0A합니다%0D%0A마음속으로  고인의 영원한 안식을  기도해주시기를 부탁드리며 너른 양해를 구합니다";
         const KAKAO_TEXT_NL = (KAKAO_TEXT || '').replace(/%0D%0A|%0A|%0D/gi, "\n");
         const TEMPLATE_ID = 129633;
 
@@ -1610,7 +1996,7 @@
             var partnerLogoUrl = 'https://www.wooribugo3.com' + PARTNER_LOGO + logoVer;
             
             // PATH를 ?uri=base64 형태가 아닌 깔끔한 형태로 새로 생성
-            var cleanPath = 'page/funeral/view.php?_=' + encodeURIComponent('MzI4OTE2https://www.wooribugo4.com/page/funeral/view.php?uri=P189TXpJNE9URTI=');
+            var cleanPath = 'page/funeral/view.php?_=' + encodeURIComponent('MzI4OTE2https://cycrypto.github.io/park-euinam-memorial/page/funeral/view.php?uri=P189TXpJNE9URTI=');
                         
             Kakao.Share.createCustomButton({
                 container: '#sendKakao',
@@ -1661,7 +2047,7 @@
         /* ============================================================ */
 
         function shareBand() {
-            var bandBody = "[부고 안내] 故 박의남님께서 소천 하셨기에 아래와 같이 부고를 전해 드립니다.%0D%0A%0D%0A일일이 연락드리지 못함을 부디 혜량해 주시길 바라오며 아래의 모바일 부고장으로 부고를 알려드립니다.%0D%0A%0D%0A■모바일부고장■%0D%0Ahttps:\/\/www.wooribugo4.com\/page\/funeral\/view.php?uri=P189TXpJNE9URTJodHRwczovL3d3dy53b29yaWJ1Z280LmNvbS9wYWdlL2Z1bmVyYWwvdmlldy5waHA\/dXJpPVAxODlUWHBKTkU5VVJUST0=%0D%0A%0D%0A배우자%0D%0A피정진%0D%0A아들%0D%0A박현철, 박현석, 박현수%0D%0A며느리%0D%0A안효선, 전명희%0D%0A딸%0D%0A박경림%0D%0A외손자%0D%0A유명재%0D%0A손자%0D%0A승우ㆍ승환 ㆍ준하%0D%0A손녀%0D%0A서현%0D%0A%0D%0A%0D%0A▶ 상주말씀 ◀%0D%0A저희 사랑하는 부친(박 의남)님 께서  하나님의%0D%0A부름을받고 천국으로 안식하시러  가셨습니다%0D%0A고인의 평소뜻과 유가족의  뜻에따라 주변에%0D%0A부담을 드리지않게 무빈소로 장례를 모시고자%0D%0A합니다%0D%0A마음속으로  고인의 영원한 안식을  기도해주시기를 부탁드리며 너른 양해를 구합니다 https:\/\/www.wooribugo4.com\/page\/funeral\/view.php?uri=P189TXpJNE9URTJodHRwczovL3d3dy53b29yaWJ1Z280LmNvbS9wYWdlL2Z1bmVyYWwvdmlldy5waHA\/dXJpPVAxODlUWHBKTkU5VVJUST0=";
+            var bandBody = "[부고 안내] 故 박의남님께서 소천 하셨기에 아래와 같이 부고를 전해 드립니다.%0D%0A%0D%0A일일이 연락드리지 못함을 부디 혜량해 주시길 바라오며 아래의 모바일 부고장으로 부고를 알려드립니다.%0D%0A%0D%0A■모바일부고장■%0D%0Ahttps://cycrypto.github.io/park-euinam-memorial/%0D%0A%0D%0A배우자%0D%0A피정진%0D%0A아들%0D%0A박현철, 박현석, 박현수%0D%0A며느리%0D%0A안효선, 전명희%0D%0A딸%0D%0A박경림%0D%0A외손자%0D%0A유명재%0D%0A손자%0D%0A승우ㆍ승환 ㆍ준하%0D%0A손녀%0D%0A서현%0D%0A%0D%0A%0D%0A▶ 상주말씀 ◀%0D%0A저희 사랑하는 부친(박 의남)님 께서  하나님의%0D%0A부름을받고 천국으로 안식하시러  가셨습니다%0D%0A고인의 평소뜻과 유가족의  뜻에따라 주변에%0D%0A부담을 드리지않게 무빈소로 장례를 모시고자%0D%0A합니다%0D%0A마음속으로  고인의 영원한 안식을  기도해주시기를 부탁드리며 너른 양해를 구합니다 https://cycrypto.github.io/park-euinam-memorial/";
             window.open("https://band.us/plugin/share?body=" + encodeURIComponent(bandBody));
         }
 
@@ -1706,8 +2092,7 @@
             $.ajax(ajax);
         }
         $(document).ready(function() {
-            load_comments(1);
-            load_orders(1);
+            // Static GitHub Pages hosting cannot call the original funeral AJAX endpoints.
         });
 
         // 뒤로가기 발생 시 처리
